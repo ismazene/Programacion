@@ -15,17 +15,17 @@ public class BateriaEjercicio4 {
 
         if (num1 < num2 & num1 < num2) {
             System.out.println("El numero " + num1 + " es el numero menor de los tres");
-        } else if (num1 == num2 & num1 == num2) {
+        } else if (num1 == num2 || num1 == num2) {
             System.out.println("ERROR:Hay dos numeros iguales");
         }
         if (num2 < num1 & num2 < num3) {
             System.out.println("El numero " + num2 + " es el numero menor de los tres");
-        } else if (num2 == num1 & num2 == num3) {
+        } else if (num2 == num1 || num2 == num3) {
             System.out.println("ERROR:Hay dos numeros iguales");
         }
         if (num3 < num1 & num3 < num2) {
             System.out.println("El numero " + num3 + " es el numero menor de los tres");
-        } else if (num3 == num1 & num3 == num2) {
+        } else if (num3 == num1 || num3 == num2) {
             System.out.println("ERROR:Hay dos numeros iguales");
         }
     }

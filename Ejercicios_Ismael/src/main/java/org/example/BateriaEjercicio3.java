@@ -10,12 +10,12 @@ public class BateriaEjercicio3 {
         System.out.println("Dame un numero porfavor. :)");
         int num = teclado.nextInt();
 
-        if (num > CERO){
+        if (num > CERO) {
             System.out.println("El numero introducido es mayor que cero");
-        } else if (num == CERO){
+        } else if (num == CERO) {
             System.out.println("El numero introducido es igual que cero");
         } else {
             System.out.println("El numero introducido es menor que cero");
         }
     }
-    }
+}
