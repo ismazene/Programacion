@@ -10,6 +10,7 @@ public class Practica3 {
         final double ALTURA_MAXIMA = 230;
         final double PESO_MAXIMO = 120;
         int altura = 0;
+        int peso = 0;
 
         System.out.println("***BIENVENIDO AL RATÓN JUGUETÓN***");
 
@@ -20,7 +21,6 @@ public class Practica3 {
             System.out.println("ERROR DE FORMATO");
             return;
         }
-
         double calculo_altura = ALTURA_MINIMA - altura;
 
         if (altura > ALTURA_MAXIMA || altura < 0) {
@@ -29,7 +29,12 @@ public class Practica3 {
             System.out.println("LO SIENTO, NO PUEDES MONTAR EN LA ATRACCION. Te faltan " + calculo_altura + "cm de altura.");
         } else {
             System.out.println("Leyendo peso (kg)...");
-            int peso = teclado.nextInt();
+            try {
+                peso = teclado.nextInt();
+            } catch (Exception e) {
+                System.out.println("ERROR DE FORMATO");
+                return;
+            }
             double peso_minimo = (altura * 2) / 8.0;
 
             double sobrepasar = peso - PESO_MAXIMO;
