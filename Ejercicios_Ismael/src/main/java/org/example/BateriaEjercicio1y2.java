@@ -19,7 +19,7 @@ public class BateriaEjercicio1y2 {
         double resultado = horas_trabajo * tarifa_h;
 
 
-        if (horas_trabajo >= JORNADA){
+        if (horas_trabajo >= JORNADA){wqeqe
 
             double resultado2 = horas_trabajo*TARIFA;
             double resultado_total = resultado+resultado2;
