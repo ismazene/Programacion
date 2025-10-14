@@ -41,16 +41,6 @@ public class Practica4 {
 
         String num1_string = Integer.toString(num1);
 
-        String num1_Izquierda = num1_string.substring(0,1);
-        String num1_Medio = num1_string.substring(1,2);
-        String num1_Derecha = num1_string.substring(2,3);
-
-        int num_1_Izquierda = Integer.parseInt(num1_Izquierda);
-        int num_1_Medio = Integer.parseInt(num1_Medio);
-        int num_1_Derecha = Integer.parseInt(num1_Derecha);
-
-
-
         String num2_string = Integer.toString(num2);
 
         String num2_Izquierda = num2_string.substring(0,1);
@@ -61,8 +51,8 @@ public class Practica4 {
         int num_2_Medio = Integer.parseInt(num2_Medio);
         int num_2_Derecha = Integer.parseInt(num2_Derecha);
 
-        System.out.println("   " + num1_Izquierda + num1_Medio + num1_Derecha);
-        System.out.println("x" + "  " + num1_Izquierda + num1_Medio + num1_Derecha);
+        System.out.println("   " + num1);
+        System.out.println("x" + "  " + num2_Izquierda + num2_Medio + num2_Derecha);
         System.out.println("--------");
     }
 }
