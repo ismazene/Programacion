@@ -44,7 +44,6 @@ public class ProgramaGeneraciones {
 
             anyoNacimiento = anyoActual - edad;
             teclado.nextLine();
-ye
             System.out.println("El usuario tiene " + edad + " años. Nació en el " + anyoNacimiento);
         } else {
             System.err.println("ERROR. El modo introducido no es válido.");
