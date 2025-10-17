@@ -24,6 +24,5 @@ public class Actividad {
         System.out.println("El resultado es " + resultado);
 
 
-        adfafasf
     }
 }
