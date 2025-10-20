@@ -12,50 +12,63 @@ public class ProgramaGeneraciones {
         int anyoActual = hoy.getYear();
         int anyoNacimiento = 0;
 
-
         System.out.println("MODOS DISPONIBLES");
         System.out.println("-----------------");
         System.out.println("[1] Año válido");
         System.out.println("[2] Año de nacimiento");
         System.out.print("Que modo quieres: ");
 
-        int modo;
-
         if (!teclado.hasNextInt()) {
             System.err.println("ERROR. Introduce un modo válido.");
             return;
         }
 
-        modo = teclado.nextInt();
+        int modo = teclado.nextInt();
         teclado.nextLine();
 
-        if (modo == 1) {
-            System.out.print("Introduzca tu año de nacimiento (XXXX): ");
-            String anyoNacimientoStr = teclado.nextLine();
+        switch (modo) {
+            case 1:
+                System.out.print("Introduzca tu año de nacimiento (XXXX): ");
+                String anyoNacimientoStr = teclado.nextLine();
 
-            anyoNacimiento = Integer.parseInt(anyoNacimientoStr);
+                try {
+                    anyoNacimiento = Integer.parseInt(anyoNacimientoStr);
+                } catch (NumberFormatException e) {
+                    System.err.println("ERROR. El año introducido no es un número válido.");
+                    return;
+                }
 
-            if (anyoNacimiento <= anyoMinimo && anyoNacimiento >= anyoActual) {
-                System.err.println("Año NO válido");
-            }
-        } else if (modo == 2) {
-            System.out.print("Introduce tu edad: ");
-            int edad = teclado.nextInt();
+                if (anyoNacimiento <= anyoMinimo || anyoNacimiento >= anyoActual) {
+                    System.err.println("Año NO válido");
+                    return;
+                }
+                break;
 
-            anyoNacimiento = anyoActual - edad;
-            teclado.nextLine();
-            System.out.println("El usuario tiene " + edad + " años. Nació en el " + anyoNacimiento);
-        } else {
-            System.err.println("ERROR. El modo introducido no es válido.");
+            case 2:
+                System.out.print("Introduce tu edad: ");
+                if (!teclado.hasNextInt()) {
+                    System.err.println("ERROR. La edad debe ser un número.");
+                    return;
+                }
+                int edad = teclado.nextInt();
+                teclado.nextLine();
+
+                anyoNacimiento = anyoActual - edad;
+                System.out.println("El usuario tiene " + edad + " años. Nació en el " + anyoNacimiento);
+                break;
+
+            default:
+                System.err.println("ERROR. El modo introducido no es válido.");
+                return;
         }
 
-        System.out.println("\nCalculando a qué generacion perteneces...");
+        System.out.println("Calculando a qué generación perteneces...");
         if (anyoNacimiento >= 1900 && anyoNacimiento <= 1927) {
             System.out.println("Eres de la generación sin bautizar.");
         } else if (anyoNacimiento >= 1928 && anyoNacimiento <= 1944) {
             System.out.println("Eres de la generación Silent.");
         } else if (anyoNacimiento >= 1945 && anyoNacimiento <= 1964) {
-            System.out.println("Eres de la genración Baby Boomers");
+            System.out.println("Eres de la generación Baby Boomers");
         } else if (anyoNacimiento >= 1965 && anyoNacimiento <= 1981) {
             System.out.println("Eres de la generación X");
         } else if (anyoNacimiento >= 1982 && anyoNacimiento <= 1994) {
