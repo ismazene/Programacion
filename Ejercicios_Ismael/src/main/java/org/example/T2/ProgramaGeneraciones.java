@@ -1,4 +1,4 @@
-package org.example;
+package org.example.T2;
 
 import java.time.LocalDateTime;
 import java.util.Scanner;

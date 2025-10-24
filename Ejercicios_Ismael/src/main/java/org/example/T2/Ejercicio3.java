@@ -1,4 +1,4 @@
-package org.example.EjerciciosBUCLES;
+package org.example.T2;
 
 public class Ejercicio3 {
     static void main() {

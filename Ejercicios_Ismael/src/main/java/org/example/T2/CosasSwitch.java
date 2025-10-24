@@ -1,4 +1,4 @@
-package org.example;
+package org.example.T2;
 
 public class CosasSwitch {
     static void main() {
