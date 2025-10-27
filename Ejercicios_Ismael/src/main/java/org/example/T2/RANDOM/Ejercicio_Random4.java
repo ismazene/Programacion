@@ -15,8 +15,6 @@ public class Ejercicio_Random4 {
         int longitud = aleatorio.nextInt(5) + 8;
 
         String contra = "";
-
-        // Al menos un carácter de cada tipo
         contra += mayus.charAt(aleatorio.nextInt(mayus.length()));
         contra += minus.charAt(aleatorio.nextInt(minus.length()));
         contra += numeros.charAt(aleatorio.nextInt(numeros.length()));

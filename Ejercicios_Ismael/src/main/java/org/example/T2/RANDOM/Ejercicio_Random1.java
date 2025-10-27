@@ -6,8 +6,8 @@ public class Ejercicio_Random1 {
     static void main() {
         Random aleatorio = new Random();
 
-        int dado1 = aleatorio.nextInt(6) + 1; // 1-6
-        int dado2 = aleatorio.nextInt(6) + 1; // 1-6
+        int dado1 = aleatorio.nextInt(6) + 1;
+        int dado2 = aleatorio.nextInt(6) + 1;
         int suma = dado1 + dado2;
 
         System.out.println("Dado 1: " + dado1);
