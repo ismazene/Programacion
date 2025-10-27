@@ -9,7 +9,7 @@ public class Ejercicio_Random4 {
         String minus = "abcdefghijklmnopqrstuvwxyz";
         String numeros = "0123456789";
         String caracteres = mayus + minus + numeros;
-1
+
         Random aleatorio = new Random();
 
         int longitud = aleatorio.nextInt(5) + 8;

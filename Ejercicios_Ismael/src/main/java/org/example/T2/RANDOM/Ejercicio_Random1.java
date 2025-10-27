@@ -15,4 +15,3 @@ public class Ejercicio_Random1 {
         System.out.println("Suma total: " + suma);
     }
 }
-1

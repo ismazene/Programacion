@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Ejercicio_Random3 {
     static void main() {
         Random aleatorio = new Random();
-1
+
         Scanner teclado = new Scanner(System.in);
 
         System.out.println("Introudce un numero minimo");

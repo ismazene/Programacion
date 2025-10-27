@@ -15,4 +15,3 @@ public class Ejercicio_Random2 {
         System.out.println("Contraseña generada: " + contra);
     }
 }
-1
