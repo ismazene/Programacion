@@ -31,4 +31,4 @@ public class Ejercicio1 {
         System.out.println("Iguales a 0: " + iguales);
     }
 }
-//Acordarse de uqe hay que ir introduciendo valores a las variables para contabilizar
+//Acordarse de que hay que ir introduciendo valores a las variables para contabilizar
