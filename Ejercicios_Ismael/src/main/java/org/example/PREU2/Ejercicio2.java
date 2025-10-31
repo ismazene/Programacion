@@ -16,7 +16,7 @@ public class Ejercicio2 {
         int exponente = teclado.nextInt();
 
         if (exponente < 0) {
-            System.err.println("NO puedes hacer nada con esto");
+            System.err.println("No puedes hacer nada con esto");
         }
 
         int resultado = 1;
