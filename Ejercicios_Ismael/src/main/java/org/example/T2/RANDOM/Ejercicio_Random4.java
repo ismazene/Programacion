@@ -13,6 +13,7 @@ public class Ejercicio_Random4 {
         Random aleatorio = new Random();
 
         int longitud = aleatorio.nextInt(5) + 8;
+        System.out.println(longitud);
 
         String contra = "";
         contra += mayus.charAt(aleatorio.nextInt(mayus.length()));
