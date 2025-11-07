@@ -11,7 +11,6 @@ public class Bateria_ejer2 {
         int aux = 0;
 
         for (int i = 0; i < vector.length/2; i++) {
-
             aux = vector[i];
             vector[i]=vector[vector.length-1-i];
             vector[vector.length-1-i]=aux;
