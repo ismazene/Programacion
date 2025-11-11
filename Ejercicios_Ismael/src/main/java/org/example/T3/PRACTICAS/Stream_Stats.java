@@ -23,11 +23,9 @@ public class Stream_Stats {
         String[] espectadores_String;
         int[] espectadores = new int[5];
 
-<<<<<<< HEAD
         for (int i = 0; i < vector_espectadores.length; i++) {
             int espectadores_int = Integer.parseInt(Arrays.toString(vector_espectadores));
 
-=======
         do {
             correcto = true;
             System.out.print("Inserta los espectadores medidos: ");
@@ -39,7 +37,6 @@ public class Stream_Stats {
 
                 correcto = false;
                 continue;
->>>>>>> df8f5296fc9dbf783c6b51a2a95f4207aa588326
             }
 
             for (int i = 0; i < 5; i++) {
