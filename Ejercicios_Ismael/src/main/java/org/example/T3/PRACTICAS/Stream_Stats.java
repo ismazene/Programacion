@@ -20,7 +20,7 @@ public class Stream_Stats {
 
         for (int i = 0; i < vector_espectadores.length; i++) {
             int espectadores_int = Integer.parseInt(Arrays.toString(vector_espectadores));
-            
+
             }
 
         System.out.println(Arrays.toString(vector_espectadores));
