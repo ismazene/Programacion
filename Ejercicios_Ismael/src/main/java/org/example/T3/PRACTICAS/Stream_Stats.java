@@ -1,5 +1,6 @@
 package org.example.T3.PRACTICAS;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Stream_Stats {
@@ -22,10 +23,7 @@ public class Stream_Stats {
         boolean correcto;
         String[] espectadores_String;
         int[] espectadores = new int[5];
-
-        for (int i = 0; i < vector_espectadores.length; i++) {
-            int espectadores_int = Integer.parseInt(Arrays.toString(vector_espectadores));
-
+        
         do {
             correcto = true;
             System.out.print("Inserta los espectadores medidos: ");
