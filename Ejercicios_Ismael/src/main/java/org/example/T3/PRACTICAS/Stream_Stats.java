@@ -23,11 +23,8 @@ public class Stream_Stats {
         boolean correcto;
         String[] espectadores_String;
         int[] espectadores = new int[5];
-<<<<<<< HEAD
 
-=======
-        
->>>>>>> 43654931c25788a461dc9b5495aac6dbb63daace
+
         do {
             correcto = true;
             System.out.print("Inserta los espectadores medidos: ");
