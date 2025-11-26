@@ -29,7 +29,7 @@ public class la_primitiva {
                     System.err.println("El numero " + numero + " no es valido.");
                     return;
                 }
-hola
+
             }
 
             int reintegro = Integer.parseInt(numeros_split[6]);
