@@ -1,4 +1,4 @@
-package org.example.PREU2;
+package org.example.T2.PREU2;
 
 import java.util.Scanner;
 

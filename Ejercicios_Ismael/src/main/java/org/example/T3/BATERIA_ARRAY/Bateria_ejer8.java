@@ -1,8 +1,11 @@
-package org.example.T3;
+package org.example.T3.BATERIA_ARRAY;
 
 import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
+
+//Ejercicio 8. Inserta un elemento en un array
+//Crea un array e inserta un nuevo elemento en una posición específica sin sobrescribir el contenido.
 
 public class Bateria_ejer8 {
     static void main() {

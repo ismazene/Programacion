@@ -1,4 +1,4 @@
-package org.example.T3;
+package org.example.T3.BATERIA_ARRAY;
 
 import java.util.Arrays;
 import java.util.Scanner;

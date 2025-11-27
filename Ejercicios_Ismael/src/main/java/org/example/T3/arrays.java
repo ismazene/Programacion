@@ -1,6 +1,5 @@
 package org.example.T3;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
 public class arrays {
@@ -12,6 +11,6 @@ public class arrays {
         System.out.println(Arrays.toString(vector2));
 
         System.out.println(vector2);
-        
+
     }
 }

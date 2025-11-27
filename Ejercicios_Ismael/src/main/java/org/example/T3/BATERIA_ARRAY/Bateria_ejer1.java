@@ -1,6 +1,9 @@
-package org.example.T3;
+package org.example.T3.BATERIA_ARRAY;
 
 import java.util.Random;
+
+//Ejercicio 1. Suma de todos los elementos de un array
+//Crea un array de 8 números enteros e inicialízalo con números aleatorios [0,500]. Calcula y muestra la suma de todos los elementos del array.
 
 public class Bateria_ejer1 {
     static void main() {

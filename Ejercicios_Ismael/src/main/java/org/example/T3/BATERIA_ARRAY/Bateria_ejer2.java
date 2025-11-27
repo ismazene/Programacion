@@ -1,6 +1,9 @@
-package org.example.T3;
+package org.example.T3.BATERIA_ARRAY;
 
 import java.util.Arrays;
+
+//Ejercicio 2. Invierte un array
+//Crea un array de números enteros (los que quieras) y luego invierte sus elementos. Imprime el array invertido.
 
 public class Bateria_ejer2 {
     static void main() {

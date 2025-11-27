@@ -39,6 +39,7 @@ public class Spectrum {
             if (!linea.matches("[a-oA-O]+")) {
                 System.err.println("Error: Solo puedes letras de la A-O");
             }
+
             //validar tamanyo
             while (linea.length() != ancho) {
                 System.err.println("La linea debe tener exactamente " + ancho + " caracteres.");

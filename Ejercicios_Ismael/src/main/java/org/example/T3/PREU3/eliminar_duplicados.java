@@ -1,4 +1,4 @@
-package org.example.T3;
+package org.example.T3.PREU3;
 
 import java.util.Arrays;
 

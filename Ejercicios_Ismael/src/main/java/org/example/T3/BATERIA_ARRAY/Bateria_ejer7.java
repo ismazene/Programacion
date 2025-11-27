@@ -1,6 +1,9 @@
-package org.example.T3;
+package org.example.T3.BATERIA_ARRAY;
 
 import java.util.Arrays;
+
+//Ejercicio 7. Combina dos arrays en uno
+//Crea dos arrays de enteros y combina sus elementos en un solo array más grande. Luego, muestra el nuevo array.
 
 public class Bateria_ejer7 {
     static void main() {

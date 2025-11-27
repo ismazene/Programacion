@@ -1,8 +1,13 @@
-package org.example.T3;
+package org.example.T3.BATERIA_ARRAY;
 
 import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
+
+//Ejercicio 3. Contar ocurrencias de un número en un array
+//
+//Crea un array de 25 números enteros e inicialízalo con valores aleatorios [0,100]. Luego, pide al usuario que ingrese un número [0,100] y muestra
+//cuántas veces aparece ese número en el array.
 
 public class Bateria_ejer3 {
     static void main() {

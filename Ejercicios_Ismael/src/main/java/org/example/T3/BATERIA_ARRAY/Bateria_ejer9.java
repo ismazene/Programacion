@@ -1,6 +1,8 @@
-package org.example.T3;
+package org.example.T3.BATERIA_ARRAY;
 
 import java.util.Scanner;
+
+//Crea un array de tipo String y muestra la palabra más larga que contenga.
 
 public class Bateria_ejer9 {
     static void main() {

@@ -1,6 +1,9 @@
-package org.example.T3;
+package org.example.T3.BATERIA_ARRAY;
 
 import java.util.Arrays;
+
+//Ejercicio 6. Comprueba si el array es simétrico (palíndromo)
+//Crea un array de números enteros y verifica si es simétrico (es decir, se lee igual de izquierda a derecha que de derecha a izquierda).
 
 public class Bateria_ejer6 {
     static void main() {
