@@ -46,7 +46,7 @@ public class la_primitiva {
 
         System.out.println("Ha salido: ");
 
-        //While para que se repita cada vez que este mal
+        //While para que se repita cada vez que esté mal
         boolean repetidos;
         do {
             repetidos = false;
